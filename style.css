@@ -5,11 +5,15 @@
     /* ボーダーを内側に設定 */
 }
 
+/* header */
 .title {
     text-align: center;
     margin: 20px 0;
 }
+/* header */
 
+
+/* nav */
 nav {
     width: 100%;
     text-align: center;
@@ -17,20 +21,103 @@ nav {
 
 .course {
     list-style: none;
-    /* display: inline-block; */
     border-top: solid 3px gray; 
     border-bottom: solid 3px gray; 
+    margin: 0;
+    padding: 0;
 }
 
 .list {
     display: inline-block;
     margin: 15px 20px;
 }
+/* nav */
 
 
 
+/* main */
+main {
+    width: 100%;
+}
+
+.main {
+    padding: 50px 0;
+
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;     /* 中央揃えにするために auto */
+}
+
+.side {
+    width: 800px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.side > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.green:nth-child(1) {
+    background-color: #e6ffe9;
+}
+.green:nth-child(2) {
+    background-color: #cbffd3;
+}
+.green:nth-child(3) {
+    background-color: #aeffbd;
+}
+.green:nth-child(4) {
+    background-color: #93ffab;
+}
+
+.yellow:nth-child(1) {
+    background-color: #f3ffd8;
+}
+.yellow:nth-child(2) {
+    background-color: #edffbe;
+}
+.yellow:nth-child(3) {
+    background-color: #e9ffa5;
+}
+.yellow:nth-child(4) {
+    background-color: #e4ff8d;
+}
+
+.blue:nth-child(1) {
+    background-color: #d9e5ff;
+}
+.blue:nth-child(2) {
+    background-color: #bad3ff;
+}
+.blue:nth-child(3) {
+    background-color: #a4c6ff;
+}
+.blue:nth-child(4) {
+    background-color: #8eb8ff;
+}
+/* main */
 
 
+
+/* footer */
 footer {
     width: 100%;
     height: 120px;
@@ -39,3 +126,4 @@ footer {
     text-align: center;
     line-height: 120px;
 }
+/* footer */
