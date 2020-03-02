@@ -47,7 +47,7 @@ main {
 
 .container {
     width: 800px;
-    height: 800px;
+    height: 600px;
     list-style: none;
     padding: 0;
     margin: 0 auto;     /* 中央揃えにするために auto */
@@ -58,7 +58,7 @@ main {
     height: 200px;
     margin: 0;
     padding: 0;
-    display: inline-block;
+    float: left;
 }
 
 .side > ul {
@@ -70,7 +70,7 @@ main {
 .square {
     width: 200px;
     height: 200px;
-    display: inline-block;
+    float: left;
     margin: 0;
     padding: 0;
 }
